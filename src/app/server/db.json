@@ -1,0 +1,23 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "nombre": "Essential TypeScript 4: From Beginner to Pro",
+      "fechaNacimiento": "1998/07/12",
+    },
+    {
+      "id": 1,
+      "nombre": "Essential TypeScript 4: From Beginner to Pro",
+      "fechaNacimiento": "1998/07/12",
+    },
+    {
+      "id": 1,
+      "nombre": "Essential TypeScript",
+      "fechaNacimiento": "1998/07/12"
+    },
+    {
+      "id": 1,
+      "nombre": "Essential TypeScript 4",
+      "fechaNacimiento": "1998/07/12"
+    },
+}
