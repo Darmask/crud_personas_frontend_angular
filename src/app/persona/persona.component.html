@@ -1,0 +1,29 @@
+<div class="container mt-5">
+  <table class="table">
+    <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nombre completo</th>
+      <th scope="col">Fecha nacimiento</th>
+      <th scope="col">Acciones</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let persona of personas">
+      <td>{{persona.id}}</td>
+      <td>{{persona.nombre}}</td>
+      <td>{{persona.fechaNacimiento}}</td>
+      <td>
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#eliminar"
+                  (click)="eliminarPersona(persona.id)">Eliminar
+          </button>
+          <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                  (click)="editarPersona(persona)">Editar
+          </button>
+        </div>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
